@@ -1,0 +1,87 @@
+body{
+    background: linear-gradient(120deg, #188ba8, #19d3e0,#fff) no-repeat ;
+    height: 1000px;
+    background-size: 150%;
+    
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.fix{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+.Headportion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    transition: 0.5s ease-in-out;
+
+}
+.Headportion:hover{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background:linear-gradient(80deg,black,grey,white);
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 50px; 
+    border-color: black;
+    border-radius: 7px;}
+    .card{
+        background-color: #fff;
+        border-radius: 7px;
+        padding: 20px;
+        height: 320px;
+        transition: 0.5s ease-in-out;
+    }
+    .card:hover{
+        border: 6px solid rgb(20, 19, 19);
+        margin: 0;
+    }
+    .card-image{
+        height: 125px;
+        width: 250px;
+    }
+    .card-title{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color: rgb(0, 0, 0);
+    }
+    .btn{
+        background-color: #7745ff;
+        text-decoration: none;
+        color:#fff;
+        border: 3px solid#000000;
+        padding: 7px;
+        transition: 0.5s ease-in-out;
+    }
+    .btn:hover{
+    cursor: default;
+    background-color: #000000;
+    border:3px solid white;
+     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6) ;
+    }
+    .Intro{
+        display: flex;
+        justify-content: left;
+        align-self: left;
+        font-family: Helvetica;
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    h4{
+        margin-top: 0;
+    }
+    
+    
+
+    
+
+ 
